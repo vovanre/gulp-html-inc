@@ -1,0 +1,44 @@
+{
+  "name": "gulp-html-inc",
+  "version": "0.0.1",
+  "description": "Html include preprocessor",
+  "author": {
+    "name": "vovanre",
+    "email": "just.vovanre@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovanre/gulp-html-inc.git"
+  },
+  "readmeFilename": "README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "include",
+    "import"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bufferstreams": "^1.1.1",
+    "crc-32": "^1.0.2",
+    "glob": "latest",
+    "gulp-util": "^2.2.14",
+    "replace-ext": "^1.0.0",
+    "string-template": "^1.0.0",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "event-stream": "^3.3.4",
+    "mocha": "^1.18.0",
+    "mockery": "^1.4.0",
+    "vinyl": "^0.2.3"
+  },
+  "files": [
+    "index.js"
+  ]
+}
