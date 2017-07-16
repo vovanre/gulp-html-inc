@@ -16,7 +16,7 @@ const
     PLUGIN_NAME = 'gulp-html-inc',
 
     INCLUDE_REGEXP = /<!--\s*include:([a-zA-Z]+)(<[a-zA-Z\s]*>)?\(([^)]+)\)\s*-->/g,
-    INCLUDE_ARGUMENT_LIST_REGEXP = /^list:([a-zA-Z0-9]+)$/,
+    INCLUDE_ARGUMENT_LIST_REGEXP = /^list:([a-zA-Z0-9_-]+)$/,
 
     DEFAULT_OPTIONS = {
         'hash': false,
